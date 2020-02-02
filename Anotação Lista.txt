@@ -1,0 +1,28 @@
+Lista = []
+Listas são mutáveis
+
+lista = list()
+lista = ['Amigo', 'Filho', 'Primo']
+
+COMANDOS LISTAS
+
+lista.append('Irmao') === 'Amigo', 'Filho', 'Primo', 'Irmao'
+lista.insert(0, 'Lixo') === 'Lixo', 'Amigo', 'Filho', 'Primo', 'Irmao'
+del lista[3] === KEY
+lista.pop(3) === KEY
+lista.pop() === REMOVER O ULTIMO VALOR DA LISTA
+lanche.remove('Irmao') === VALOR
+
+SE O VALOR NÃO EXISTIR NA LISTA
+if 'irmao' in lista:    
+    lista.remove('irmao')
+
+valores = list(range(4, 11)) === CRIAR UMA LISTA COM OS VALORES DE 4 a 11
+
+valores.sort() === ORGANIZAR OS VALORES
+valores.sort(reverse=True) === ORGANIZAR OS VALORES DE MODO INVERSO
+len(valores) === CONTAR QUANTIDADE DE VALORES DENTRO DE UMA LISTA
+
+Cópia != Atribuir
+Atribuir a = b
+Cópia a = b[:]

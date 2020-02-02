@@ -1,0 +1,34 @@
+Dicionário = {}
+Dicionário são mutáveis
+
+dados = dict()
+dados = {'nome':thalisson, 'idade':20}
+
+COMANDOS DICIONÁRIO
+
+print(dados['nome'])
+
+ADICIONAR DADOS
+dados['sexo'] = 'M' === dados = {'nome':thalisson, 'idade':20, 'sexo':'M'}
+
+EDITAR DICIONÁRIO
+dados['nome'] = 'Leandro'
+
+DELETAR DADOS
+del dados['sexo'] === dados = {'nome':thalisson, 'idade':20}
+
+EXEMPLO
+https://prnt.sc/qfka9a
+
+RETORNAR COISAS DO DICIONÁRIO
+print(dados.values())
+print(dados.key())
+print(dados.items())
+
+for k, v in dados.items(): === https://prnt.sc/qfkbzj
+    print(f'O {k} é {v})
+
+É possível colocar Dicionário dentro de lista
+
+CÓPIA
+totaldados.append(dados.copy())

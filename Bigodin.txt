@@ -1,0 +1,5 @@
+caps = list(map(int, input('').split()))
+
+valor_solto = tuplinha[0]
+valor_como_lista = [tuplinha[0]]
+valor_como_tupla = tuplinha[0:1]
